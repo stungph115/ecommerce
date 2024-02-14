@@ -1,0 +1,14 @@
+add Header :
+  - nav left: logo
+  - nav center: search
+  - nav right: user , cart
+
+  when click on user:
+  if cookie => profile
+  if not => auth
+
+add Footer
+
+add Home
+
+add login, logout, pw forgot, pw reset
